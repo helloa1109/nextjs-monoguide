@@ -1,10 +1,4 @@
-import type { Metadata } from "next";
 import "./globals.css";
-
-export const metadata: Metadata = {
-  title: "Monorepo Web App",
-  description: "Modern monorepo with Next.js, TypeScript, and Turborepo",
-};
 
 export default function RootLayout({
   children,
