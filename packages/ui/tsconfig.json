@@ -1,0 +1,16 @@
+{
+  "extends": "@repo/typescript-config/react-library.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "outDir": "dist",
+    "baseUrl": ".", 
+
+    "paths": {
+      "@chat/ui": ["packages/ui/src"],
+      "@chat/ui/*": ["packages/ui/src/*"]
+    }
+    
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
