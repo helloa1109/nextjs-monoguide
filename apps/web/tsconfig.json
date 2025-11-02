@@ -4,6 +4,8 @@
     "allowJs": true,
     "noEmit": true,
     "jsx": "preserve",
+    "module": "esnext",
+    "moduleResolution": "node",
     "plugins": [
       {
         "name": "next"
@@ -14,7 +16,7 @@
       "@/*": ["./src/*"],
       "@chat/ui": ["../../packages/ui/src"],
       "@chat/ui/*": ["../../packages/ui/src/*"]
-    },
+    }
   },
   "include": [
     "next-env.d.ts",
