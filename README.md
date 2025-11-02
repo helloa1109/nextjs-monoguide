@@ -1,6 +1,7 @@
 # Next.js Monorepo 템플릿
 
 > Turborepo + pnpm을 활용한 확장 가능한 Next.js 모노레포 템플릿
+> 모노레포 구조 이해하기 위한 [템플릿 노션](https://sour-rainforest-ad6.notion.site/nextjs-turborep-pnpm-29e1940e16a480ce88f5c9b30d2fe04c)
 
 ## 📚 목차
 
